@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.css">
+  
+  <title>My Profile</title>
+
+</head>
+
+<body>
+  <!-- 상단 내비게이션 바 -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">바뀌어라 좀</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portpolio</a>
+          </li>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- 소개 섹션 About section -->
+  <section class="section">
+    <div class="section-container">
+      <div class="section-item">
+        <p>Welcom to the wold <br>
+          저의 월드에 오신걸 환영합니다</p>
+      </div>
+    </div>
+  </section>
+  
+<!-- portfolio -->
+  <div class="portfolio">
+      <div class="row justify-content-center">
+        
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">프로젝트 제못1</h5>
+                    <p class="card-text">여기는 프로젝트 설명하는 글입니다@@@@@@@@@@@@@@@@@@@</p>
+                    <a href="#" data-toggle="modal" data-target="#projectModal1">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="프로젝트 1" >
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                  <h5 class="card-title">프로젝트 제목2</h5>
+                  <p class="card-text">여기는 프로젝트 설명하는 글입니다@@@@@@@@@@@@@@@@@@@</p>
+                  <a href="#" data-toggle="modal" data-target="#projectModal2">
+                      <img src="https://via.placeholder.com/150" class="card-img-top" alt="프로젝트 2">
+                  </a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">프로젝트 제못3</h5>
+                <p class="card-text">여기는 프로젝트 설명하는 글입니다@@@@@@@@@@@@@@@@@@@</p>
+                <a href="#" data-toggle="modal" data-target="#projectModal3">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="프로젝트 3">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+              <h5 class="card-title">프로젝트 제못4</h5>
+              <p class="card-text">여기는 프로젝트 설명하는 글입니다@@@@@@@@@@@@@@@@@@@</p>
+              <a href="#" data-toggle="modal" data-target="#projectModal4">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="프로젝트 4">
+              </a>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">프로젝트 제못5</h5>
+            <p class="card-text">여기는 프로젝트 설명하는 글입니다@@@@@@@@@@@@@@@@@@@</p>
+            <a href="#" data-toggle="modal" data-target="#projectModal5">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="프로젝트 5">
+            </a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">프로젝트 제못6</h5>
+            <p class="card-text">여기는 프로젝트 설명하는 글입니다@@@@@@@@@@@@@@@@@@@</p>
+            <a href="#" data-toggle="modal" data-target="#projectModal6">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="프로젝트 6">
+            </a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- 모달 -->
+<div>
+<div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel1">프로젝트 1 상세 정보</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              프로젝트 1에 대한 자세한 정보입니다.
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel1">프로젝트 2 상세 정보</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              프로젝트 2에 대한 자세한 정보입니다.
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel3">프로젝트 3 상세 정보</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              프로젝트 3에 대한 자세한 정보입니다.
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projectModal4" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel4" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel4">프로젝트 4 상세 정보</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              프로젝트 4에 대한 자세한 정보입니다.
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projectModal5" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel5" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel5">프로젝트 5 상세 정보</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              프로젝트 5에 대한 자세한 정보입니다.
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projectModal6" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel6" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="projectModalLabel6">프로젝트 6 상세 정보</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              프로젝트 6에 대한 자세한 정보입니다.
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
